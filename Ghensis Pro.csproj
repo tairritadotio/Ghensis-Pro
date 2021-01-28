@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F079A434-EED2-487B-AF3C-5F1D46DCA1C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ghensis_Pro</RootNamespace>
+    <AssemblyName>Ghensis Pro</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Ghensis Pro/</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0290907F982B75D2ED164EF18F13EC7E2011AED8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Ghensis Pro_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comunicação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comunicação.Designer.cs">
+      <DependentUpon>Comunicação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E-mails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E-mails.Designer.cs">
+      <DependentUpon>E-mails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Essenciais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Essenciais.Designer.cs">
+      <DependentUpon>Essenciais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GitHub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GitHub.Designer.cs">
+      <DependentUpon>GitHub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDEs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDEs.Designer.cs">
+      <DependentUpon>IDEs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interação.Designer.cs">
+      <DependentUpon>Interação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jogos.Designer.cs">
+      <DependentUpon>Jogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogosInst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JogosInst.Designer.cs">
+      <DependentUpon>JogosInst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navegadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navegadores.Designer.cs">
+      <DependentUpon>Navegadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pesquisas.Designer.cs">
+      <DependentUpon>Pesquisas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Poker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Poker.Designer.cs">
+      <DependentUpon>Poker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Redes Sociais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Redes Sociais.Designer.cs">
+      <DependentUpon>Redes Sociais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Videos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Videos.Designer.cs">
+      <DependentUpon>Videos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Comunicação.resx">
+      <DependentUpon>Comunicação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mails.resx">
+      <DependentUpon>E-mails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Essenciais.resx">
+      <DependentUpon>Essenciais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GitHub.resx">
+      <DependentUpon>GitHub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDEs.resx">
+      <DependentUpon>IDEs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interação.resx">
+      <DependentUpon>Interação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jogos.resx">
+      <DependentUpon>Jogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogosInst.resx">
+      <DependentUpon>JogosInst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navegadores.resx">
+      <DependentUpon>Navegadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisas.resx">
+      <DependentUpon>Pesquisas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Poker.resx">
+      <DependentUpon>Poker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Redes Sociais.resx">
+      <DependentUpon>Redes Sociais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Videos.resx">
+      <DependentUpon>Videos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Ghensis Pro_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon1.ico" />
+    <None Include="Resources\Background Git.jpeg" />
+    <None Include="Resources\Git Bash.jpg" />
+    <None Include="Resources\Git.jpg" />
+    <None Include="Resources\GitHub Desktop.jpg" />
+    <None Include="Resources\Comunicação.jpg" />
+    <None Include="Resources\Whatsapp.jpg" />
+    <None Include="Resources\Microsoft Skype.jpg" />
+    <None Include="Resources\Discord.png" />
+    <None Include="Resources\Poker.jpg" />
+    <None Include="Resources\888.jpg" />
+    <None Include="Resources\PartyPoker.png" />
+    <None Include="Resources\Pokerstars.jpeg" />
+    <None Include="Resources\Facebook Gaming.jpg" />
+    <None Include="Resources\Background Games Instalados.jpg" />
+    <None Include="Resources\Guilds War 2.jpg" />
+    <None Include="Resources\Crossfire.jpg" />
+    <None Include="Resources\League of Legends.jpeg" />
+    <None Include="Resources\Background Plataformas Game.png" />
+    <None Include="Resources\Epic.png" />
+    <None Include="Resources\Steam.jpg" />
+    <None Include="Resources\Prime video.jpg" />
+    <None Include="Resources\Netflix.jpg" />
+    <None Include="Resources\Youtube.jpg" />
+    <None Include="Resources\Twitch.png" />
+    <None Include="Resources\Background E-mail.jpg" />
+    <None Include="Resources\Outlook.jpg" />
+    <None Include="Resources\Gmail.jpg" />
+    <None Include="Resources\Background Rede Sociais 1.jpg" />
+    <None Include="Resources\Background Rede Sociais.jpg" />
+    <None Include="Resources\Linkedin.jpg" />
+    <None Include="Resources\reddit-logo-vertical.jpg" />
+    <None Include="Resources\Instagram.jpg" />
+    <None Include="Resources\Twitter.png" />
+    <None Include="Resources\Facebook.jpg" />
+    <None Include="Resources\Yahoo.jpg" />
+    <None Include="Resources\Bacground Pesquisa.jpg" />
+    <None Include="Resources\Bing.jpg" />
+    <None Include="Resources\Google.jpg" />
+    <None Include="Resources\Background Internet.jpg" />
+    <None Include="Resources\Opera.jpg" />
+    <None Include="Resources\Mozilla Firefox.png" />
+    <None Include="Resources\Edge.jpg" />
+    <None Include="Resources\Chrome.jpg" />
+    <None Include="Resources\Background IDEs.jpg" />
+    <None Include="Resources\Visual Studio Code.png" />
+    <None Include="Resources\Visual Studio.jpg" />
+    <None Include="Resources\Integração.jpeg" />
+    <None Include="Resources\StreamHolics.png" />
+    <None Include="Resources\StreamElements.jpg" />
+    <None Include="Resources\StreamLabs.jpg" />
+    <None Include="Resources\Background Live.jpg" />
+    <None Include="Resources\Twitch Soundtrack.jpg" />
+    <None Include="Resources\BotShSo.png" />
+    <None Include="Resources\BotSpeaker.png" />
+    <None Include="Resources\OBS Studio.jpg" />
+    <None Include="Resources\Art Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

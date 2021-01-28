@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Ghensis Pro.exe" version="1.0.0.3" publicKeyToken="b15ef4d23591e5df" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Ghensis Pro" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Ghensis Pro.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ghensis Pro.exe" size="20000744">
+      <assemblyIdentity name="Ghensis Pro" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gLnv4PA1DHfh1YOxVA6PbomB0Yez4NNdRjJKUu0RJ2c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Ghensis Pro.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icon1.ico" size="219710">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>By8N1sFTK8yoT51CP1apr8VejKACM9bfsjnKxWqaXK4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K29B402\Fluvio" issuerKeyHash="25209dd0624d02aaa37d1ae4729aacce08264085" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/83jvvUIcrqk9MFtm+2I63ggIy0mhndnCt6pOyJJ9OE=</DigestValue></Reference></SignedInfo><SignatureValue>dnTn9DoAIuhmb84WaP93ZHdLZbf7bqPhmFpw1Y74F36sUzcEMTDN1jDw0TpY+EirNbhP4ChpSt23t9MI8IetIsUcX0aK0jJ4mTSU8UoWGgNnbXRyr+mKApd5HUwlTJ6ISFZtIP8zRIfRN0fTQJwTQQrDLfFYO2lcSaCqmL4fiNA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tYTsgXsykLXD1aKiXaynwyui4ywXXSlO95pmhT0VkQ/Mqne6cBIgsCiXX4+LgETHJEPyM4AKnlvZmrNl56veQW7wPkV3rIDqfA4hm7ALOX5Ra+x7B2b0fF+4HXAAaQYjre+C3gz5K4zolAO3PZS0+OAeHQvWsDKfuqUyavl/KC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e1f449223ba9de0a677786262d232078eb88ed9b6dc1f4a4ba7208f5bee3cdff" Description="" Url=""><as:assemblyIdentity name="Ghensis Pro.exe" version="1.0.0.3" publicKeyToken="b15ef4d23591e5df" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K29B402\Fluvio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qEmwrJ1jK3ayw8/czspkvEiTHOyzcjI6u6etebqAFkM=</DigestValue></Reference></SignedInfo><SignatureValue>LMw95EbcM3VEFR04lgjBcTPep1aUgmsLYVQMIn6F0GI9LL927HrijJ8UftmEEVLwEZ3m8YMd/ZjTJ10DnCmMyI0rGFMesvAwT+PyvWrjWLsUOdy3jb1fePZD9vJH8jhtR+043LjmnE0WLoDLBR/ziUa07eZnR6dkJCF4w3ko5iU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tYTsgXsykLXD1aKiXaynwyui4ywXXSlO95pmhT0VkQ/Mqne6cBIgsCiXX4+LgETHJEPyM4AKnlvZmrNl56veQW7wPkV3rIDqfA4hm7ALOX5Ra+x7B2b0fF+4HXAAaQYjre+C3gz5K4zolAO3PZS0+OAeHQvWsDKfuqUyavl/KC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQaGeKcBduBo9EmbEsYOKGiDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEsAMgA5AEIANAAwADIAXABGAGwAdQB2AGkAbzAeFw0yMTAxMTgwMDE4NDdaFw0yMjAxMTgwNjE4NDdaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ASwAyADkAQgA0ADAAMgBcAEYAbAB1AHYAaQBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1hOyBezKQtcPVoqJdrKfDK6LjLBddKU73mmaFPRWRD8yqd7pwEiCwKJdfj4uARMckQ/IzgAqeW9mas2Xnq95BbvA+RXesgOp8DiGbsAs5flFr7HsHZvR8X7gdcABpBiOt74LeDPkrjOiUA7c9lLT44B4dC9awMp+6pTJq+X8oLQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJFTal5NVqfhMB9JEipB2xJuGbV+kbonrlhGT9wr/qA3lgO3vBXlIWZSXL0A7ZkQT4Ql1t4nizXON31ZLwo+5+OrwYOAHGNctOvBur+fR1fk5j1RFGUhJ5cbLxOvm0fcRZr9Blhzcyur3/RX76afFrjim5C83BCdxaKiD9R3uRZN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

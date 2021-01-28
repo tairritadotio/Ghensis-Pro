@@ -1,0 +1,54 @@
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe.config
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.pdb
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csprojAssemblyReference.cache
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmInicial.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.Properties.Resources.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csproj.GenerateResource.cache
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csproj.CoreCompileInputs.cache
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.exe
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.pdb
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmEssen.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmIntera.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmIDE.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmNavega.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmPesq.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmRS.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmEMail.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmVideos.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmJogos.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmJInst.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmPoker.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmComu.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmGH.resources
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe.manifest
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.application
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.exe.manifest
+C:\Users\Fluvio\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.application
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe.config
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe.manifest
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.application
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.exe
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\bin\Debug\Ghensis Pro.pdb
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csprojAssemblyReference.cache
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmComu.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmEMail.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmEssen.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmGH.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmIDE.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmIntera.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmJogos.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmJInst.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmNavega.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmPesq.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmPoker.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmRS.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmInicial.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.Properties.Resources.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis_Pro.FrmVideos.resources
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csproj.GenerateResource.cache
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.csproj.CoreCompileInputs.cache
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.exe.manifest
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.application
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.exe
+C:\Users\fluvi\OneDrive\Documentos\Projects\Ghensis Pro\Ghensis Pro\obj\Debug\Ghensis Pro.pdb
